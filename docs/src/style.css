@@ -9,32 +9,61 @@
         vertical-align: baseline;
         background: transparent;
     }
+    
+html, body{
+	height: 100%;
+}
 
 #navDiv{
 	background-color: #729fcf;
 	overflow: hidden;
-	height: 40px;
+	position:relative;
+	height: 8%;
+	
 	
 }
 
 nav{
+	
+	position: absolute;
+	right:0;
+	top:0;
+	bottom:0;
+	height:100%;
+	width:100%;
 	float:right;
-	margin-right:5px;
+	
 
 }
 
-nav a{
-	margin-right:-6px;
-	display:inline-block;
-	height: 23px;
-	text-align: center;
+nav ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	position: absolute;
+	right:0;
+	height:100%;
+}
+
+nav ul li{
+	display: inline;
+	position: relative;
+	float:right;
+	height:100%;
+}
+
+nav ul li a{
+	display:block;
+	padding: 10px;
 	font-size: 1.8vw;
-	min-width:10%;
-	padding: 5px;
+	position: relative;
+	vertical-align:middle;
+	height:100%;
 	text-decoration: none;
-	border: #3465a4 solid;
-
+	
 }
+
+
 
 nav a:hover{
 	background-color: #3465a4;
