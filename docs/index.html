@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="src/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
-<div id="navDiv">
-<nav>
+	<div id="navDiv">
+		<nav>
 
-<ul>
-<li><a>Contact Me</a>
-<li><a>Resume</a>
-<li><a> Projects</a>
-<li><a>Articles</a> 
-<li><a href="index.html">Home</a>
+			<div class="row"></div>
+				<div class="col-sm-2"><a>Contact Me</a></div>
+				<div class="col-sm-2"><a>Resume</a></div>
+				<div class="col-sm-2"><a>Projects</a></div>
+				<div class="col-sm-2"><a>Articles</a></div>
+				<div class="col-sm-2"><a>Home</a></div>
+		</nav>
+	</div>
 
-
-</ul>
-</nav>
-</div>
-
-<div id="test"></div>
-<script>
-var path = window.location.pathname;
-document.getElementById("test").innerHTML = path;
-
-</script>
+	<div id="test"></div>
+	<script>
+		var path = window.location.pathname;
+		document.getElementById("test").innerHTML = path;
+	</script>
 </body>
 </html>
