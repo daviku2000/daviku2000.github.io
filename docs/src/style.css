@@ -14,11 +14,37 @@ html, body{
 	height: 100%;
 }
 
+body{
+	background-image: linear-gradient(to bottom right, #194F91,#1A488E, #688BC0);
+	overflow-x:hidden;
+}
+
 .bg-custom-nav-color{
 	background-color: #194f91;
 }
 
-.bg-about-me{
-	background-color: #d7d7d7;
+.about-me{
+	
+	overflow:hidden;
+	
+	
 }
 
+.about-me-img{
+	float:left;
+}
+
+.about-me-description{
+	overflow:hidden;
+	
+}
+
+.about-me-just{
+	float:left;
+	line-height: 3rem !important;
+	
+}
+
+.social-media{
+	overflow:hidden;
+}
