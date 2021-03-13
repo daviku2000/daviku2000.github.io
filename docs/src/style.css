@@ -18,6 +18,8 @@ body {
 	background-image: linear-gradient(to bottom right, #194F91, #1A488E, #688BC0)
 		!important;
 	overflow-x: hidden;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bg-custom-nav-color {
