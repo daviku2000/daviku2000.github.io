@@ -25,13 +25,13 @@ body {
 }
 
 .about-me {
-	height: 30%;
+	height:33%;
 	overflow:hidden;
 	background-color: #555753;
 }
 
 .about-me-img {
-	float: left;
+	width:15vw;
 }
 
 .about-me-description {
