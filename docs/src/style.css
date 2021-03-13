@@ -1,50 +1,50 @@
 @charset "UTF-8";
 
 * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-    }
-    
-html, body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html, body {
 	height: 100%;
 }
 
-body{
-	background-image: linear-gradient(to bottom right, #194F91,#1A488E, #688BC0) !important;
-	overflow-x:hidden;
+body {
+	background-image: linear-gradient(to bottom right, #194F91, #1A488E, #688BC0)
+		!important;
+	overflow-x: hidden;
 }
 
-.bg-custom-nav-color{
+.bg-custom-nav-color {
 	background-color: #194f91;
 }
 
-.about-me{
-	
-	overflow:hidden;
-	
+.about-me {
+	height: 30%;
+}
+
+.about-me-img {
+	float: left;
+}
+
+.about-me-description {
 	
 }
 
-.about-me-img{
-	float:left;
+.about-me-just {
+	float: left;
+	line-height: 2.5vw !important;
+	font-size: 1.5vw;
 }
 
-.about-me-description{
-	overflow:hidden;
-	
-}
-
-.about-me-just{
-	float:left;
-	line-height: 3rem !important;
-	
-}
-
-.social-media{
-	overflow:hidden;
+.social-media-icon {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
 }
