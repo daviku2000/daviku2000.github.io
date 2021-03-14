@@ -41,13 +41,13 @@ body {
 }
 
 .about{
-	width:80%;
+	width:90%;
 }
 
 
 .about-text{
 	border-radius:25px;
-	width:80%;
+	width:90%;
 }
 .about-image{
 	width:100%;
@@ -74,9 +74,41 @@ body {
 }
 #about{
 	height:10%;
+	
+
 }
 #skills{
 	height:10%;
+}
+
+h3 {
+    animation-duration: 2s;
+    animation-name: slideInLeft;
+    }
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
 @media (min-width:768px){
 
