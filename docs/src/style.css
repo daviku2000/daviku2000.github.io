@@ -58,6 +58,10 @@ nav:hover{
 	width:90%;
 }
 
+.contact-me{
+	width:90%;
+	border-radius:15px;
+}
 
 .about-text{
 	border-radius:15px;
@@ -102,8 +106,12 @@ nav:hover{
 	height:10%;
 }
 
-h3 {
-    }
+.bye{
+	background-image: linear-gradient(to bottom right, #092147 , #1A488E, #97B2DE);
+	height:15vh;
+	min-height: 70px;
+}
+
 
 @keyframes slidein {
   0% {
