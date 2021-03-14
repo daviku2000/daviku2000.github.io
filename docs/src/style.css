@@ -63,12 +63,13 @@ body {
 	width:80%;
 }
 
+
 .about-text{
 	border-radius:25px;
 	width:80%;
 }
 .about-image{
-
+	width:100%;
 }
 
 .about-text-inner{
