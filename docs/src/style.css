@@ -15,11 +15,13 @@ html, body {
 }
 
 body {
-	background-image: linear-gradient(to bottom right, #194F91, #1A488E, #688BC0)
-		!important;
+/* 	background-image: linear-gradient(to bottom right, #194F91, #1A488E, #688BC0) */
+/* 		!important; */
+	background-image: url("../img/background.jpg");
 	overflow-x: hidden;
 	background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size:cover;
 }
 
 
@@ -29,7 +31,7 @@ nav:hover{
 
 .top-img-div{
 	width:100%;
-	background-image: url("../img/top-img.jpeg");
+	background-image: url("../img/top-img-2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -44,6 +46,13 @@ nav:hover{
 	bottom:0;
 	right:0;	
 }
+.centered-brand{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	width: auto;
+	transform: translate(-50%,-50%);
+}
 
 .about{
 	width:90%;
@@ -51,7 +60,7 @@ nav:hover{
 
 
 .about-text{
-	border-radius:25px;
+	border-radius:15px;
 	width:90%;
 }
 .about-image{
@@ -72,11 +81,17 @@ nav:hover{
 
 .card-custom{
 	font-size:14px;
-	border-radius:25px;
+	border-radius:15px;
 }
 
 .card-deck{
 
+}
+
+.divider{
+	max-width:15rem;
+	border: 2px solid white;
+	height:2px;
 }
 #about{
 	height:10%;
