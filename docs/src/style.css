@@ -22,6 +22,14 @@ body {
     background-attachment: fixed;
 }
 
+.top-img-div{
+	width:100%;
+	background-image: url("../img/top-img.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .bg-custom-nav-color {
 	background-color: #194f91;
 }
@@ -38,20 +46,43 @@ body {
 
 .about-me-just {
 	float: left;
-	line-height: 2.5vw !important;
-	font-size: 1.5vw;
+	font-size: 110%;
+	line-height:1.6;
 }
 .about-me-img{
 	width:100%;
 }
 
-
-@media (min-width:768px){
-	.social-media-icon {
-	width: 4vw;
-/* 	max-width: 100%; */
-/* 	max-height: 100%; */
+.social-media-links{
+	position: absolute;
+	bottom:0;
+	right:0;	
 }
+
+.about{
+	width:80%;
+}
+
+.about-text{
+	border-radius:25px;
+	width:80%;
+}
+.about-image{
+
+}
+
+.about-text-inner{
+	width:80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width:768px){
+/* 	.social-media-icon { */
+/* 	width: 4vw; */
+/* 	max-width:42px; */
+/* /* 	max-width: 100%; */ */
+/* /* 	max-height: 100%; */ */
+/* } */
 .about-me-img {
 	width:15vw;
 }
@@ -60,7 +91,7 @@ body {
 	height:33%;
 	overflow:hidden;
 	background-color: #555753;
-	min-height:150px;
+	min-height:160px;
 }
 
 }
