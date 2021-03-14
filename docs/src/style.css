@@ -72,6 +72,12 @@ body {
 .card-deck{
 
 }
+#about{
+	height:10%;
+}
+#skills{
+	height:10%;
+}
 @media (min-width:768px){
 
 
