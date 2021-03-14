@@ -34,25 +34,6 @@ body {
 	background-color: #194f91;
 }
 
-
-.about-me {
-	overflow:hidden;
-	background-color: #555753;
-}
-
-.about-me-description {
-	
-}
-
-.about-me-just {
-	float: left;
-	font-size: 110%;
-	line-height:1.6;
-}
-.about-me-img{
-	width:100%;
-}
-
 .social-media-links{
 	position: absolute;
 	bottom:0;
@@ -77,23 +58,22 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-@media (min-width:768px){
-/* 	.social-media-icon { */
-/* 	width: 4vw; */
-/* 	max-width:42px; */
-/* /* 	max-width: 100%; */ */
-/* /* 	max-height: 100%; */ */
-/* } */
-.about-me-img {
-	width:15vw;
+
+.skills-cards{
+	width:90%;
+	margin-right:auto;
+	margin-left:auto;
 }
 
-.about-me {
-	height:33%;
-	overflow:hidden;
-	background-color: #555753;
-	min-height:160px;
+.card-custom{
+	font-size:14px;
 }
+
+.card-deck{
+
+}
+@media (min-width:768px){
+
 
 }
 
