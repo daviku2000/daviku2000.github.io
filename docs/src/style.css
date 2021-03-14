@@ -22,6 +22,11 @@ body {
     background-attachment: fixed;
 }
 
+
+nav:hover{
+	opacity:1;
+}
+
 .top-img-div{
 	width:100%;
 	background-image: url("../img/top-img.jpeg");
@@ -67,6 +72,7 @@ body {
 
 .card-custom{
 	font-size:14px;
+	border-radius:25px;
 }
 
 .card-deck{
@@ -82,8 +88,6 @@ body {
 }
 
 h3 {
-    animation-duration: 2s;
-    animation-name: slideInLeft;
     }
 
 @keyframes slidein {
@@ -111,7 +115,9 @@ h3 {
   }
 }
 @media (min-width:768px){
-
+nav{
+	opacity: 0.6;
+}
 
 }
 
